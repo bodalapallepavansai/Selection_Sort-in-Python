@@ -21,7 +21,7 @@ a=list()
 
 for line in fhand:
     for i in line.split():
-        a.append(i)
+        a.append(int(i))
 print("Entered List =",a)
 Selection_sort(a)
 
