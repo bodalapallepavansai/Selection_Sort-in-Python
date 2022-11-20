@@ -4,7 +4,7 @@ def prints(arr):
     print("Sorted List =",arr)
 
 def Selection_sort(seq):
-    for i in range(0,len(seq)):
+    for i in range(len(seq)):
         min=i
         for j in range(i+1,len(seq)):
             if seq[i]>seq[j]:
